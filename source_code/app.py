@@ -1,6 +1,6 @@
 import streamlit as st
 import yfinance as yf
-from app_functions import program_action, validate_ticker
+from source_code.app_functions import program_action, validate_ticker
 
 def app():
     st.title("Financial Statement Analysis")
